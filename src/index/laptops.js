@@ -28,7 +28,7 @@ export default class Laptops extends React.Component {
           </Card.Text>
           <BrowserRouter>
           <Button variant="secondary">
-          <Link to={`/laptops/${card.id}`}>Watch more</Link>
+          <Link to={`/index/laptops/${card.id}`}>Watch more</Link>
           </Button>
           </BrowserRouter>
         </Card.Body>

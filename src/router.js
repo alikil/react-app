@@ -5,8 +5,8 @@ import Index from "./index/index.js";
 import Sidebar from "./index/sidebar";
 import Laptops from "./index/laptops";
 
-
-const routes = [
+export default function AppRouterWay() {
+  const routes = [
     {
       path: "/",
       exact: true,
@@ -17,24 +17,28 @@ const routes = [
       main: () => <div><h2><Index /></h2><Sidebar /></div>
     },
     {
+      path: "/index",
+      exact: true,
+      main: () => <div><Laptops /></div>
+    },
+    {
       path: "/index/laptops",
+      exact: true,
       main: () => <div><Laptops /></div>
     },
     {
       path: "/index/phones",
+      exact: true,
       main: () => <div></div>
     },
     {
       path: "/index/bracers",
+      exact: true,
       main: () => <div></div>
     }
 ];
-
-
-function AppRouterWay() {
   return (
     <Router>
-      <div>
         {routes.map((route, index) => (
             <Route
               key={index}
@@ -43,9 +47,6 @@ function AppRouterWay() {
               component={route.main}
             />
           ))}
-      </div>
     </Router>
   );
 }
-
-export default AppRouterWay;
