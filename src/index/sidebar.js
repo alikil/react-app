@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-
 function Sidebar() {
   return (
       <div>
         <div
           style={{
             padding: "10px",
-            marginRight: "20px",
+            margin: "20px",
             marginTop: "10px",
             width: "15%",
             background: "#f0f0f0",

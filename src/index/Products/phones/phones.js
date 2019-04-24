@@ -4,6 +4,8 @@ import { Link, BrowserRouter } from 'react-router-dom'
 
 import cards from "./laptop_list.js";
 
+// Относительные / прямые ссылки.
+
 export default class Laptops extends React.Component {
     render() {
 
@@ -21,14 +23,14 @@ export default class Laptops extends React.Component {
       <Card key={card.id} className="col-lg">
         <Card.Img variant="top" src={card.img} style={centerImg}/>
         <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
+          <Card.Title className="shadowHover">{card.title}</Card.Title>
           <Card.Text>
           {card.content} <br></br>
           Price: {card.price}$
           </Card.Text>
           <BrowserRouter>
           <Button variant="secondary">
-          <Link to={`/index/laptops/${card.id}`}>Watch more</Link>
+          <Link to={`/index/laptops/${card.id}`}>Watch more</Link>          
           </Button>
           </BrowserRouter>
         </Card.Body>
@@ -36,7 +38,7 @@ export default class Laptops extends React.Component {
       );
       return (
         <div style={indexPage}>
-          <div className="row">
+          <div className="row shadowHoverActive">
             <CardColumns>
               {cardItems}
             </CardColumns>

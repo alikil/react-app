@@ -1,4 +1,4 @@
-const cards = [
+const Cards = [
         {
           "id": 1,
           "title":"Xiaomi Mi Notebook 15.6",
@@ -72,4 +72,4 @@ const cards = [
 
 
 ]
-export default cards;
+export default Cards;

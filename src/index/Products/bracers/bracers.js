@@ -16,12 +16,12 @@ export default class Laptops extends React.Component {
         display: "block",
         margin: "0 auto"
       }
-      
+
       const cardItems = cards.map((card) =>
       <Card key={card.id} className="col-lg">
         <Card.Img variant="top" src={card.img} style={centerImg}/>
         <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
+          <Card.Title className="shadowHover">{card.title}</Card.Title>
           <Card.Text>
           {card.content} <br></br>
           Price: {card.price}$
@@ -36,7 +36,7 @@ export default class Laptops extends React.Component {
       );
       return (
         <div style={indexPage}>
-          <div className="row">
+          <div className="row shadowHoverActive">
             <CardColumns>
               {cardItems}
             </CardColumns>
