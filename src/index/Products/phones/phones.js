@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardColumns, Button } from 'react-bootstrap'
-import { Link, BrowserRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-import cards from "./laptop_list.js";
+import cards from "./phone_list.js";
 
 // Относительные / прямые ссылки.
 
@@ -18,9 +18,11 @@ export default class Laptops extends React.Component {
         display: "block",
         margin: "0 auto"
       }
-      
+      const linkto = {
+        color: "yellow"
+      }
       const cardItems = cards.map((card) =>
-      <Card key={card.id} className="col-lg">
+      <Card key={card.id} className="col-lg shadowHover">
         <Card.Img variant="top" src={card.img} style={centerImg}/>
         <Card.Body>
           <Card.Title className="shadowHover">{card.title}</Card.Title>
@@ -28,11 +30,9 @@ export default class Laptops extends React.Component {
           {card.content} <br></br>
           Price: {card.price}$
           </Card.Text>
-          <BrowserRouter>
           <Button variant="secondary">
-          <Link to={`/index/laptops/${card.id}`}>Watch more</Link>          
+          <Link to={`/index/phones/${card.id}`} style={linkto}>Watch more</Link>          
           </Button>
-          </BrowserRouter>
         </Card.Body>
       </Card>
       );
