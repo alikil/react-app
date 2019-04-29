@@ -31,7 +31,7 @@ export default class CardSpec extends React.Component{
     <Card className="col-m" style={cardBord}>
     <Card.Img variant="top" src={cardesgg.img} style={centerImg}/>
     <Card.Body>
-      <Card.Title className="shadowHover">{cardesgg.title}</Card.Title>
+      <Card.Title className="shadowHover" style={{ textAlign: "center"}}>{cardesgg.title}</Card.Title>
       <Card.Text>
       {cardesgg.content} <br></br>
       Price: {cardesgg.price}$<br></br>

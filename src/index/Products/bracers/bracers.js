@@ -31,9 +31,11 @@ export default class Laptops extends React.Component {
           {card.content} <br></br>
           Price: {card.price}$
           </Card.Text>
-           <Button variant="secondary">
-          <Link to={`/index/bracers/${card.id}`} style={linkto}>Watch more</Link>
+          <Link to={`/index/bracers/${card.id}`}>
+          <Button variant="secondary" style={linkto}>
+          Watch more
           </Button>
+          </Link>
         </Card.Body>
       </Card>
       );
