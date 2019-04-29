@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card } from 'react-bootstrap'
-import cards from "./laptop_list.js";
+import cards from "./bracers_list.js";
 
 export default class CardSpec extends React.Component{
     render() {
-// Не работает, (разобраться с Find = ✓) (react redux = noNeed) (Router = ✓) (=> ✓)
+// Не работает, (разобраться с Find = ✓) (react redux = noNeed) (Router = ✓) this.state =>
 // this.props.match.params.id (случайно сработало = ✓ , Expected '===' and instead saw '==')
 // Работает если привести to Number (разобрать как получилось)
 

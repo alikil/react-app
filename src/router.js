@@ -11,8 +11,9 @@ import "./components/css/transitions.css"
 import "./components/css/hovershadow.css";
 
 
-import CardSpec from "./index/Products/laptops/spec";
-
+import LaptopSpec from "./index/Products/laptops/spec";
+import PhonesSpec from "./index/Products/phones/spec";
+import BracersSpec from "./index/Products/bracers/spec";
 
 
 export default function AppRouterWay() {
@@ -49,8 +50,21 @@ export default function AppRouterWay() {
     },
     {
       path: "/index/laptops/:id",
-      main: () => <div><CardSpec /></div>
+      main: (props) => <div><LaptopSpec {...props}/></div>
     },
+    {
+      path: "/index/phones/:id",
+      main: (props) => <div><PhonesSpec {...props}/></div>
+    },
+    {
+      path: "/index/bracers/:id",
+      main: (props) => <div><BracersSpec {...props}/></div>
+    },
+
+
+
+
+
 ];
   return (
     <Router>
