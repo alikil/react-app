@@ -21,6 +21,12 @@ export default class CardSpec extends React.Component{
         marginRight: "20px"
       }
 
+      const speclist = cardesgg.specs.map((spec, index) =>
+      <li key={index}>
+        {spec}
+      </li>
+    );
+
     return (
     <Card className="col-m" style={cardBord}>
     <Card.Img variant="top" src={cardesgg.img} style={centerImg}/>
@@ -28,7 +34,8 @@ export default class CardSpec extends React.Component{
       <Card.Title className="shadowHover">{cardesgg.title}</Card.Title>
       <Card.Text>
       {cardesgg.content} <br></br>
-      Price: {cardesgg.price}$
+      Price: {cardesgg.price}$<br></br>
+      {speclist}
       </Card.Text>
     </Card.Body>
   </Card>
