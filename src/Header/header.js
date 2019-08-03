@@ -11,6 +11,7 @@ class HeaderNav extends Component {
                     <Nav className="mr-auto">
                     <Nav.Link href="/PTC">PTC</Nav.Link>
                     <Nav.Link href="/news">RUS</Nav.Link>
+                    <Nav.Link href="/news">Rgggg</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>
