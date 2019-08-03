@@ -7,8 +7,6 @@
     padding: 20px;
     margin-bottom: 60px;
 }
-
-
 .shadowHover:hover {
     box-shadow: 0 0 10px rgba(34, 23, 175, 0.7);
     padding: 20px;

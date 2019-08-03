@@ -1,9 +1,10 @@
-
+h2 {
+  font-size: 18px;
+}
 div {
     animation: myfirst linear 0.5s alternate;
-  }
-
-  @keyframes myfirst {
+}
+@keyframes myfirst {
     0%   {opacity: 0.2}
     25%  {opacity: 0.4}
     50%  {opacity: 0.6}

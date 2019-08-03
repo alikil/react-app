@@ -1,17 +1,20 @@
 import React from 'react';
-import './App.scss';
-import HeaderNav from "./nav/nav";
+import HeaderNav from "./Header/header";
+import FooterNav from "./Footer/footer";
 import Routway from "./router";
-import Footer from "./Footer/footer.js";
+import BackgroundIndex from "./background-design.jpg";
 
 function AppRouter() {
+  const backIndex = {
+    backgroundSize: "cover",
+    backgroundImage: `url(${BackgroundIndex})`
+    }
   return (
-    <div>
-    <HeaderNav />
-    <Routway />
-    <Footer />
+    <div style={backIndex}>
+    <header><HeaderNav /></header>
+    <div style={{overflow:"auto"}}><Routway /></div>
+    <footer><FooterNav /></footer>
     </div>
   );
 }
-
 export default AppRouter;

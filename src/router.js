@@ -1,83 +1,26 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
-
-import Index from "./index/index.js";
-import Sidebar from "./index/sidebar";
-import Laptops from "./index/Products/laptops/laptops.js";
-import Phones from "./index/Products/phones/phones.js";
-import Bracers from "./index/Products/bracers/bracers.js";
-
+import PTCBanner from "./PTC/PTC_Banner.js";
+import Sidebar from "./PTC/sidebar";
 import "./components/css/transitions.css"
 import "./components/css/hovershadow.css";
-
-
-import LaptopSpec from "./index/Products/laptops/spec";
-import PhonesSpec from "./index/Products/phones/spec";
-import BracersSpec from "./index/Products/bracers/spec";
-
+import CardsList from "./PTC/Cards/CardsList";
+import CardsSpecs from "./PTC/Cards/CardsSpecs";
 
 export default function AppRouterWay() {
-
   const routes = [
-    {
-      path: "/",
-      exact: true,
-      main: () => <h2><Redirect to="/index"/></h2>
-    },
-    {
-      path: "/index",
-      main: () => <div className="opacityTr"><h2><Index /></h2><Sidebar /></div>
-    },
-    {
-      path: "/index",
-      exact: true,
-      main: () => <div><Laptops /></div>
-    },
-    {
-      path: "/index/laptops",
-      exact: true,
-      main: () => <div><Laptops /></div>
-    },
-    {
-      path: "/index/phones",
-      exact: true,
-      main: () => <div><Phones /></div>
-    },
-    {
-      path: "/index/bracers",
-      exact: true,
-      main: () => <div><Bracers /></div>
-    },
-    {
-      path: "/index/laptops/:id",
-      main: (props) => <div><LaptopSpec {...props}/></div>
-    },
-    {
-      path: "/index/phones/:id",
-      main: (props) => <div><PhonesSpec {...props}/></div>
-    },
-    {
-      path: "/index/bracers/:id",
-      main: (props) => <div><BracersSpec {...props}/></div>
-    },
-
-
-
-
-
-];
+    {path: "/",exact: true,main: () => <Redirect to="/PTC/legit"/>},
+    {path: "/:page/",exact: true,main: () => <Redirect to="/PTC/legit"/>},
+    {path: "/:page/",main:()=><div><PTCBanner /></div>},
+    {path: "/:page/",main:()=><aside><Sidebar /></aside>},
+    {path: "/:page/:status",exact:true,main:(props)=><main><CardsList {...props}/></main>},
+    {path: "/:page/:status/:id",main:(props)=><main><CardsSpecs {...props}/></main>}
+  ];
   return (
     <Router>
-      <div>
-        {routes.map((route, id) => (
-            <Route
-              key={id}
-              path={route.path}
-              exact={route.exact}
-              component={route.main}
-            />
-          ))}
-      </div>
+      {routes.map((route, id) => (
+        <Route key={id} path={route.path} exact={route.exact} component={route.main}/>
+      ))}
     </Router>
   );
 }
