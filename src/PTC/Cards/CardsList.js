@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardColumns, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import cards from "./All_Cards_Arr";
+import cards from "./All_Cards_Arr.json";
 export default class Legit extends React.Component {
   render() {
     const cardColumnsStyle = {padding: "10px 10px",margin: "20px", minHeight: "100%"}
@@ -15,7 +15,7 @@ export default class Legit extends React.Component {
     const cardItems = cardsFiltered.map((card) =>
       <Card key={card.id} className="shadowHover col-sm-8 col-md-3 col-lg-2" style={cardStyle}>
           <div className="shadowHover" style={cardTitleStyle}>
-            <a target="_blank" rel="opener referrer" href={`${card.ref}`}>
+            <a target="_blank" href={`${card.ref}`}>
             <Card.Img variant="top" src={card.img} style={cardImgStyle}/>
             <Card.Title><h3 style={{fontSize:"2vw"}}>{card.title}</h3></Card.Title>
             </a>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Container, Col, Row } from 'react-bootstrap'
-import cards from "./All_Cards_Arr";
+import cards from "./All_Cards_Arr.json";
 
 export default class CardSpec extends React.Component{
   render() {
