@@ -11,17 +11,18 @@ export default class Legit extends React.Component {
     const cardtextStyle = {backgroundColor: "lightblue", textAlign:"center"}
     const linkToButton = {color: "yellow"}
     const pathStatus = String(this.props.match.params.status)
-    const cardsFiltered = cards.filter((card) => card.status === pathStatus)
-    const cardItems = cardsFiltered.map((card) =>
+    const cardItems = cards
+    .filter((card) => card.status === pathStatus)
+    .map((card) =>
       <Card key={card.id} className="shadowHover col-sm-8 col-md-3 col-lg-2" style={cardStyle}>
           <div className="shadowHover" style={cardTitleStyle}>
             <a target="_blank" href={`${card.ref}`}>
             <Card.Img variant="top" src={card.img} style={cardImgStyle}/>
-            <Card.Title><h3 style={{fontSize:"2vw"}}>{card.title}</h3></Card.Title>
+            <Card.Title><h3 style={{fontSize:"2vw"}} alt={card.title}>{card.title}</h3></Card.Title>
             </a>
           </div>
         <Card.Body style={{padding: "8px 0px"}}>
-          <Card.Text style={cardtextStyle}>Status => {card.status}</Card.Text>
+          <Card.Text style={cardtextStyle}>{card.msg}</Card.Text>
           <Link to={`/PTC/${card.status}/${card.title}`}>
             <Button variant="secondary" style={linkToButton} size="md" block>More info</Button>
           </Link>
