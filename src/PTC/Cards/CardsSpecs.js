@@ -28,7 +28,7 @@ export default class CardSpec extends React.Component{
                 </ul>
             </Col>
             <Col>
-              <a target="_blank"  rel="opener referrer" href={`${cardesgg.ref}`}>
+              <a target="_blank" href={`${cardesgg.ref}`}>
               <Card.Img variant="top" src={cardesgg.img} style={centerImg} alt={cardesgg.title}/>
               </a>
             </Col>
@@ -42,7 +42,7 @@ export default class CardSpec extends React.Component{
           </Row>
         </Container>
         <Card.Body style={{paddingTop:"5px"}}>
-          <a target="_blank" rel="opener referrer" href={`${cardesgg.ref}`}>
+          <a target="_blank" href={`${cardesgg.ref}`}>
           <Card.Title className="shadowHover" style={cardTitle}><h3>{cardesgg.title}</h3></Card.Title>
           </a>
           <Card.Text style={cardText}>{cardesgg.msg}{Speclist}</Card.Text>
