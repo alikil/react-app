@@ -9,13 +9,14 @@
     "Plus":["Recaptcha2INV on login/reg/settings","DotCaptcha on ADS","Without picture captcha","$2,200 total paid", "Real payments proofs"],
     "defence":["Minimum payout => 6$","Email Verification needed","Only Gmail/Hotmail","RR work bad","Foxy => Promising =>'Be careful. Do not invest inside this site.'"],
     "specs":
-      ["Profit per day without upgrade => 0.031$",
-      "Click work => Advertisements(Bonus, Sticky, Fixed), AdGrid",
-      "Referals limit without upgrade => 100d / 200r",
-      "Payment processors =>Payeer, bitcoin, PerfectMoney",
-      "Pending 3 days",
-      "First withdraw recived from site => Jun 07, 2019",          
-      "Upgrades => PREMIUM($15/30 days) | BUSINESS($119/30 days)"
+      [
+        "Profit per day => 0.031$",
+        "Click work => Advertisements(Bonus, Sticky, Fixed), AdGrid",
+        "Referals limit => 100d / 200r",
+        "Payment processors =>Payeer, bitcoin, PerfectMoney",
+        "Pending 3 days",
+        "First withdraw recived from site => Jun 07, 2019",          
+        "Upgrades => PREMIUM($15/30 days) | BUSINESS($119/30 days)"
       ]
   },
   {
@@ -28,14 +29,15 @@
     "Plus":["PTC Evolution","CloudFlare defence","Referals contests","Unlimited DR","Huge profit","Many users","Many ads","RevShare disabled","†70 payment methods† => Road to criptoexchange"],
     "defence":["Email Verification needed"],
     "specs":
-      ["Minimum payout => 3$",
-      "Profit per day without upgrade => 0.055$",
-      "Click work => Advertisements => Fixed(25), Standart(4), Micro(3), CLIXGRID(15)",
-      "Referals limit without upgrade => Unlim(d) / 150(r)",
-      "Payment processors => Payeer, bitcoin, PerfectMoney, Altcoins(15)",
-      "Pending 7 days => withdraw proof needed after receive money",
-      "First withdraw recived from site => Jun 19th, 2019",          
-      "Upgrades => Golden($55/Six months) => Ultimate($500/Six months)"
+      [
+        "Minimum payout => 3$",
+        "Profit per day without upgrade => 0.055$",
+        "Click work => Advertisements => Fixed(25), Standart(4), Micro(3), CLIXGRID(15)",
+        "Referals limit without upgrade => Unlim(d) / 150(r)",
+        "Payment processors => Payeer, bitcoin, PerfectMoney, Altcoins(15)",
+        "Pending 7 days => withdraw proof needed after receive money",
+        "First withdraw recived from site => Jun 19th, 2019",          
+        "Upgrades => Golden($55/Six months) => Ultimate($500/Six months)"
       ]
   },
   {
@@ -50,9 +52,9 @@
     "specs":
       [
         "Minimum payout => 2$",
-        "Profit per day without upgrade => 0.021$",
+        "Profit per day => 0.021$",
         "Advertisements => Fixed(1), Standart(10), ClixGrid(10)",
-        "Referals limit without upgrade => 50/100",
+        "Referals limit => 50/100",
         "Payment processors => Paypal, CoinPayments",
         "Upgrades => Silver($10/30 days) => Gold($20/30 days)"
       ]
@@ -62,17 +64,18 @@
     "title":"AdsCare",         
     "ref":"https://www.adscare.net/?ref=alikil",
     "img":"https://www.adscare.net/adscare.PNG",
-    "status":"test",
-    "msg":"AdsCare Group (4 sites). Many proofs, Doubtfull on FR",          
+    "status":"legit",
+    "msg":"AdsCare Group (4 sites). Many proofs",          
     "Plus":["Minimalistic","Fast","Many antibot links checks(2-3)"],
     "defence":["Email Verification","CloudFlare","Bitninja","CPGuard","SolveMedia"],
     "specs":
-      ["Minimum payout => 2$",
-      "Profit per day without upgrade => 0.042$",
-      "Advertisements => Fixed(9), Standart(32), ClixGrid(15)",
-      "Referals limit without upgrade => 100/100",
-      "Payment processors => Payeer, bitcoin, PerfectMoney, Altcoins(15)",  
-      "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
+      [
+        "Minimum payout => 5$",
+        "Profit per day => 0.042$",
+        "Advertisements => Fixed(9), Standart(32), ClixGrid(15)",
+        "Referals limit => 100/100",
+        "Payment processors => Payeer, bitcoin, PerfectMoney",  
+        "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
       ]
   },
   {
@@ -80,17 +83,17 @@
     "title":"BizzCare",
     "ref":"https://www.bizzcare.net/?ref=alikil",
     "img":"https://www.bizzcare.net/180*180.gif",
-    "status":"test",
-    "msg":"AdsCare Group (4 sites). Many proofs, Doubtfull on FR",
+    "status":"legit",
+    "msg":"AdsCare Group (4 sites). Many proofs",
     "Plus":["Minimalistic","Fast","Many antibot links checks(2-3)","Very Powerfull Defence!!!"],
     "defence":["Email Verification","CloudFlare","Bitninja","CPGuard","SolveMedia"],
     "specs":
       [
-        "Minimum payout => 2$",
-        "Profit per day without upgrade => 0.042$",
+        "Minimum payout => 5$",
+        "Profit per day => 0.042$",
         "Advertisements => Fixed(9), Standart(32), ClixGrid(15)",
-        "Referals limit without upgrade => 100/100",
-        "Payment processors => Payeer, bitcoin, PerfectMoney, Altcoins(15)",  
+        "Referals limit => 100/100",
+        "Payment processors => Payeer, bitcoin, PerfectMoney",  
         "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
       ]
   },
@@ -111,6 +114,25 @@
         "Referals limit => 100/100",
         "Payment processors => Payeer, PerfectMoney",
         "Upgrades => SILVER($5/30 days) => GOLDEN($10/30 days)"
+      ]
+  },
+  {
+    "id": 7,
+    "title":"EarnCare",
+    "ref":"http://www.earncare.net/?ref=alikil",
+    "img":"http://www.earncare.net/banner2.gif",
+    "status":"legit",
+    "msg":"AdsCare Group (4 sites). Many proofs",
+    "Plus":["Minimalistic","Fast"],
+    "defence":["SolveMedia"],
+    "specs":
+      [
+        "Minimum payout => 5$",
+        "Profit per day => 0.035$",
+        "Advertisements => Extended(1), Standart(25)",
+        "Referals limit => 100/100",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
       ]
   }
 ]

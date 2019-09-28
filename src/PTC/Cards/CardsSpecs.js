@@ -12,7 +12,7 @@ export default class CardSpec extends React.Component{
     const centerImg = {width:"20vw",display:"block",margin:"auto"}
     const cardBord = {backgroundColor:"transparent",margin:"18px",padding:"5px"}
     const cardTitle = {textAlign:"center", padding:"5px", backgroundColor:"white", opacity:"0.8"}
-    const cardText = {backgroundColor:"white",opacity:"0.9",paddingLeft:"15px"}
+    const cardText = {backgroundColor:"white",opacity:"0.9",padding:"15px 20px"}
     const cardBack = {listStyle:"square", padding:"5px", marginLeft:"15px"}
     const cardCol = {backgroundColor:"lightgreen", color:"steelblue", opacity:"0.9", margin:"0px 15px"}
 
