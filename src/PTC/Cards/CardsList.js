@@ -18,7 +18,7 @@ export default class Legit extends React.Component {
           <div className="shadowHover" style={cardTitleStyle}>
             <a target="_blank" href={`${card.ref}`}>
             <Card.Img variant="top" src={card.img} style={cardImgStyle}/>
-            <Card.Title><h3 style={{fontSize:"2vw"}} alt={card.title}>{card.title}</h3></Card.Title>
+            <Card.Title><h3 style={{fontSize:"1.65vw"}} alt={card.title}>{card.title}</h3></Card.Title>
             </a>
           </div>
         <Card.Body style={{padding: "8px 0px"}}>

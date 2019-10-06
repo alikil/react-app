@@ -23,7 +23,7 @@
     "id": 2,
     "title":"Buxeleg",         
     "ref":"http://www.buxeleg.com/?ref=alikil",
-    "img":"http://www.buxeleg.com/banner4.gif",
+    "img":"https://www.buxeleg.com/banner4.gif",
     "status":"scam",
     "msg":"Not paying. Fake Payments. del tickets",
     "Plus":["PTC Evolution","CloudFlare defence","Referals contests","Unlimited DR","Huge profit","Many users","Many ads","RevShare disabled","†70 payment methods† => Road to criptoexchange"],
@@ -101,7 +101,7 @@
     "id": 6,
     "title":"VdClix",
     "ref":"http://www.vdclix.com/?ref=alikil",
-    "img":"http://www.vdclix.com/banner2.gif",
+    "img":"https://www.vdclix.com/banner2.gif",
     "status":"test",
     "msg":"New Site (trusted, fast Withdraw ~ 3 hours)",
     "Plus":["LEGAL Evolution script licence","New script version","Very powerfull defence"],
@@ -120,7 +120,7 @@
     "id": 7,
     "title":"EarnCare",
     "ref":"http://www.earncare.net/?ref=alikil",
-    "img":"http://www.earncare.net/banner2.gif",
+    "img":"https://www.earncare.net/banner2.gif",
     "status":"legit",
     "msg":"AdsCare Group (4 sites). Many proofs",
     "Plus":["Minimalistic","Fast"],
@@ -133,6 +133,82 @@
         "Referals limit => 100/100",
         "Payment processors => Payeer & Perfect Money",
         "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
+      ]
+  },
+  {
+    "id": 8,
+    "title":"ClixCare",
+    "ref":"https://www.clixcare.com/?ref=alikil",
+    "img":"https://www.clixcare.com/banner125x125.gif",
+    "status":"legit",
+    "msg":"AdsCare Group (4 sites). Many proofs",
+    "Plus":["Minimalistic","Fast"],
+    "defence":["SolveMedia","CloudFlare"],
+    "specs":
+      [
+        "Minimum payout => 5$",
+        "Profit per day => 0.035$",
+        "Advertisements => Extended(1), Standart(25)",
+        "Referals limit => 100/100",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
+      ]
+  },
+  {
+    "id": 9,
+    "title":"StromClix",
+    "ref":"http://www.stromclix.com/?ref=alikil",
+    "img":"https://www.stromclix.com/banners/125.gif",
+    "status":"test",
+    "msg":"Simple site, many annoying ads",
+    "Plus":["Minimalistic","Fast","Low timer (5-10 sec)"],
+    "defence":["CloudFlare"],
+    "specs":
+      [
+        "Minimum payout => 5$",
+        "Profit per day => 0.025$",
+        "Advertisements => Fixed(14), Standart(4), Clixgrid(25)",
+        "Referals limit => 100/100",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Bronze($6.5/30 days) => Silver($35/90 days)"
+      ]
+  },
+  {
+    "id": 10,
+    "title":"BestMoneyBux",
+    "ref":"http://www.bestmoneybux.com/?ref=alikil",
+    "img":"https://www.bestmoneybux.com/images/125x125.gif",
+    "status":"test",
+    "msg":"Simple site, few payment proofs",
+    "Plus":["legal EvolutionScript license","Minimalistic","Fast"],
+    "defence":["CloudFlare"],
+    "specs":
+      [
+        "Minimum payout => 3$",
+        "Profit per day => 0.03140$",
+        "Advertisements => Fixed(17), Standart(4),Mini(3), Clixgrid(25)",
+        "Referals limit => 75/150",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Bronze($5/30 days) => Silver($12/30 days)"
+      ]
+  },
+  {
+    "id": 11,
+    "title":"EarnHomeBux",
+    "ref":"http://www.earnhomebux.com/?ref=alikil",
+    "img":"https://www.earnhomebux.com/img/125.gif",
+    "status":"test",
+    "msg":"Legit, but Need invest 2$ to withdraw",
+    "Plus":["Fast","old and stable","All payments proof are legit","Clear forums","I think good site for invest"],
+    "defence":["CloudFlare","Invest_4_Withdraw 2$"],
+    "specs":
+      [
+        "Minimum payout => 3$",
+        "Profit per day => 0.03340$",
+        "Advertisements => Fixed(15), Standart(4), Micro(3), Clixgrid(25)",
+        "Referals limit => 150/150",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Bronze($6/30 days) => Silver($23/90 days)"
       ]
   }
 ]
