@@ -83,12 +83,19 @@
     "title":"BizzCare",
     "ref":"https://www.bizzcare.net/?ref=alikil",
     "img":"https://www.bizzcare.net/180*180.gif",
-    "status":"legit",
-    "msg":"AdsCare Group (4 sites). Many proofs",
+    "status":"scam",
+    "msg":"07.10 => Suspend me and my referals. Carefull with invest, site near scam!",
     "Plus":["Minimalistic","Fast","Many antibot links checks(2-3)","Very Powerfull Defence!!!"],
     "defence":["Email Verification","CloudFlare","Bitninja","CPGuard","SolveMedia"],
     "specs":
       [
+        "This site have Doubtfull status on Foxyrating", 
+        "maybe all AdsCare Group (4 sites) will be SCAM, not invest much in this sites =>",
+        "www.bizzcare.net",
+        "www.adscare.net",
+        "www.earncare.net",
+        "www.clixcare.com",
+        "============================",
         "Minimum payout => 5$",
         "Profit per day => 0.042$",
         "Advertisements => Fixed(9), Standart(32), ClixGrid(15)",
@@ -140,19 +147,20 @@
     "title":"ClixCare",
     "ref":"https://www.clixcare.com/?ref=alikil",
     "img":"https://www.clixcare.com/banner125x125.gif",
-    "status":"legit",
-    "msg":"AdsCare Group (4 sites). Many proofs",
+    "status":"scam",
+    "msg":"08.10 => Suspend me and my referals. Carefull with invest, site near scam!",
     "Plus":["Minimalistic","Fast"],
     "defence":["SolveMedia","CloudFlare"],
     "specs":
-      [
-        "Minimum payout => 5$",
-        "Profit per day => 0.035$",
-        "Advertisements => Extended(1), Standart(25)",
-        "Referals limit => 100/100",
-        "Payment processors => Payeer & Perfect Money",
-        "Upgrades => Regular($30/60 days) => Premium($100/180 days)"
-      ]
+    [
+      "This site have Doubtfull status on Foxyrating", 
+      "maybe all AdsCare Group (4 sites) will be SCAM, not invest much in this sites =>",
+      "www.bizzcare.net",
+      "www.adscare.net",
+      "www.earncare.net",
+      "www.clixcare.com",
+      "============================"
+    ]
   },
   {
     "id": 9,
@@ -209,6 +217,44 @@
         "Referals limit => 150/150",
         "Payment processors => Payeer & Perfect Money",
         "Upgrades => Bronze($6/30 days) => Silver($23/90 days)"
+      ]
+  },
+  {
+    "id": 12,
+    "title":"VoxinAds",
+    "ref":"https://www.voxinadz.com/?ref=alikil",
+    "img":"https://www.voxinadz.com/banner3.gif",
+    "status":"test",
+    "msg":"Will be Legit after withdraw, Good for invest, stable rules.",
+    "Plus":["Fast","New Script","Without Cloudflare!","Legit","Clear forum"],
+    "defence":["Simple"],
+    "specs":
+      [
+        "Minimum payout => 4$",
+        "Profit per day => 0.0176$",
+        "Advertisements => Fixed(9), Standart(4), Micro(4), Mini(1) Clixgrid(25)",
+        "Referals limit => 50/100",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Personal($5/30 days) => Basic($12/30 days)"
+      ]
+  },
+  {
+    "id": 13,
+    "title":"LadderClix",
+    "ref":"https://www.ladderclix.com/?ref=alikil",
+    "img":"https://www.ladderclix.com/banners/125.gif",
+    "status":"test",
+    "msg":"Premium update at start. Good site",
+    "Plus":["New Script","Legit","Clear forum"],
+    "defence":["Cloudflare"],
+    "specs":
+      [
+        "Minimum payout => 5$",
+        "Profit per day => 0.05$",
+        "Advertisements => Fixed(16), Standart(6), Micro(1), Clixgrid(25)",
+        "Referals limit => 50/150",
+        "Payment processors => Payeer & Perfect Money",
+        "Upgrades => Personal($6.5/30 days) => Basic($70/90 days)"
       ]
   }
 ]
