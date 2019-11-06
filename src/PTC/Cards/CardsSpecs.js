@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import { Card, Container, Col, Row } from 'react-bootstrap'
 import cards from "./All_Cards_Arr.json";

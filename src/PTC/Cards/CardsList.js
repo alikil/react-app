@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import { Card, CardColumns, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
